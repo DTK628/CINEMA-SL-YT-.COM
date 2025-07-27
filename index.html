@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <div class="cinema-header">
+    W&nbsp;E&nbsp;L&nbsp;C&nbsp;O&nbsp;M&nbsp;E&nbsp;&nbsp;T&nbsp;O&nbsp;&nbsp;<br>C&nbsp;I&nbsp;N&nbsp;E&nbsp;M&nbsp;A&nbsp;<span class="highlight-sl">&nbsp;&nbsp;S&nbsp;L</span>
+  </div>
+  <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+  
+  <footer style="text-align: center; padding: 20px; background: transparent;">
+    <p style="font-family: 'Algerian', serif; font-size: 28px; color: red; text-transform: uppercase;">
+      Watch our films on our YouTube channel:
+    </p>
+    <a href="https://www.youtube.com/@CINEMA.SL-ORIGINEL" target="_blank">
+      <img src="30.jpg" alt="YouTube Logo" style="height:50px;">
+    </a>
+  </footer>
+  <br>
+  <br>
+  <br>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cinema SL Search</title>
+  <style>
+
+    body
+     {
+      font-family: Arial, 'Segoe UI', 'Algerian', sans-serif;
+      background-color: #0f0f0f;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin: 0;
+      background-image: url('BG.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    .search-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+    #searchInput {
+      padding: 0.5rem;
+      font-size: 1rem;
+      width: 300px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    button {
+      padding: 0.5rem 1rem;
+      margin-left: 0.5rem;
+      background-color: #ff3c3c;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    #searchResults p {
+      background-color: #1f1f1f;
+      padding: 0.5rem;
+      margin: 0.5rem auto;
+      width: 50%;
+      border-radius: 4px;
+    }
+    @font-face {
+      font-family: 'Algerian';
+      src: local('Algerian');
+    }
+    .cinema-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      font-size: 96px;
+      color: cyan;
+      white-space: nowrap;
+      overflow: hidden;
+      box-sizing: border-box;
+      z-index: 9999;
+      animation: scroll-left 12s linear infinite;
+      font-family: 'Algerian', serif;
+      background: transparent;
+    }
+    .highlight-sl {
+      color: white;
+      text-shadow: 0 0 10px cyan;
+    }
+    @keyframes scroll-left {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+    .cinema-footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #111;
+      color: cyan;
+      font-size: 24px;
+      text-align: center;
+      padding: 10px 0;
+      z-index: 9999;
+      box-shadow: 0 -2px 10px rgba(0, 255, 255, 0.3);
+      font-family: 'Algerian', serif;
+    }
+  </style>
+</head>
+<body>
+  
+
+ 
+
+  <h1>Cinema SL Film Search</h1>
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search for a film...">
+    <button onclick="search()">Search</button>
+  </div>
+  <div id="searchResults"></div>
+
+  <div style="display: flex; align-items: center; padding: 20px;">
+    <img src="line.jpg" alt="Download Icon" style="height:120px; margin-right: 20px;">
+    <div>
+      <a href="https://drive.usercontent.google.com/download?id=1s7AEDScIrghQFfbkiIbMI7kuOo66rd0i&export=download" download style="text-decoration: none;">
+        <span style="font-family: 'Algerian', serif; font-size: 24px; color: cyan;">
+          DOWNLOAD – S LINE EPISODE 01
+        </span>
+      </a>
+      <br><br>
+      <a href="https://drive.usercontent.google.com/download?id=15KgxKdUi65P3OJNoZtSKLsBHPdzunL8m&export=download" download style="text-decoration: none;">
+        <span style="font-family: 'Algerian', serif; font-size: 24px; color: cyan;">
+          DOWNLOAD – S LINE EPISODE 02
+        </span>
+      </a>
+    </div>
+  </div>
+  <div style="display: flex; align-items: center; padding: 20px;">
+    <img src="TRAIN.jpg" alt="Download Icon" style="height:120px; margin-right: 20px;">
+    <div>
+      <a href="https://drive.usercontent.google.com/download?id=1Ce-InEhymjMUrKuBnteHg8LG8UKt2MXA&export=download" download style="text-decoration: none;">
+        <span style="font-family: 'Algerian', serif; font-size: 24px; color: cyan;">
+          DOWNLOAD – HOW TO TRAIN YOUR DRAGON 2025
+        </span>
+      </a>
+    </div>
+  </div>
+  <div style="display: flex; align-items: center; padding: 20px;">
+    <img src="SONICA.jpg" alt="Download Icon" style="height:120px; margin-right: 20px;">
+    <div>
+      <a href="https://drive.usercontent.google.com/download?id=16-_9hwYx7hYC5E_qt42IFSbXAppkqvTF&export=download" download style="text-decoration: none;">
+        <span style="font-family: 'Algerian', serif; font-size: 24px; color: cyan;">
+          DOWNLOAD – SONIC THE HEDGEHOG 2020 (1nd PART)
+        </span>
+      </a>
+    </div>
+  </div>
+  <div style="display: flex; align-items: center; padding: 20px;">
+    <img src="SONICB.jpg" alt="Download Icon" style="height:120px; margin-right: 20px;">
+    <div>
+      <a href="https://drive.usercontent.google.com/download?id=10FW4VAqr6y_zunFvw0AWzqjAISn79WuI&export=download" download style="text-decoration: none;">
+        <span style="font-family: 'Algerian', serif; font-size: 24px; color: cyan;">
+          DOWNLOAD – SONIC THE HEDGEHOG 2022 (2nd PART)
+        </span>
+      </a>
+    </div>
+  </div>
+  <div style="display: flex; align-items: center; padding: 20px;">
+    <img src="SONICC.jpg" alt="Download Icon" style="height:120px; margin-right: 20px;">
+    <div>
+      <a href="https://drive.usercontent.google.com/download?id=1Dx1TJWhGJLZeQ7OVeJcyELVpFDm4aCFE&export=download" download style="text-decoration: none;">
+        <span style="font-family: 'Algerian', serif; font-size: 24px; color: cyan;">
+          DOWNLOAD – SONIC THE HEDGEHOG 2024 (3rd PART)
+        </span>
+      </a>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: center; padding: 20px;">
+    <img src="N.jpg" alt="Download Icon" style="height:120px; margin-right: 20px;">
+    <div>
+      <a href="https://drive.usercontent.google.com/download?id=1Ibof1xjlSnT3stf7jchqC9FIvQh4meel&export=download" download style="text-decoration: none;">
+        <span style="font-family: 'Algerian', serif; font-size: 24px; color: cyan;">
+          DOWNLOAD – THIS IS 40 ( 2012 ) 
+        </span>
+      </a>
+    </div>
+
+  <footer class="cinema-footer">
+    &copy; 2025 CINEMA SL. All RIGHTS RESERVED...
+  </footer>
+
+  
+
+  <script>
+    const films = [
+      { title: "HOW TO TRAIN YOUR DRAGON", url: "https://drive.usercontent.google.com/download?id=11zavxJkX_cvX3V4MyXKrEIr7gdd-LhEw&export=download" },
+      { title: "SONIC HEDGHOG 2020", url: "https://drive.usercontent.google.com/download?id=1gSGpG6ToZkplmOsCSt-dp6kWBE1jnKpB&export=download" },
+      { title: "SONIC HEDGHOG 2022", url: "https://drive.usercontent.google.com/download?id=1CXzRgj2JuGdLcPxHGtzni4fslLDvf4cb&export=download" },
+      { title: "SONIC HEDGHOG 2024", url: "https://drive.usercontent.google.com/download?id=18ohhFGwKS9gVQ7mcPM5OSTzsQi2AzpU6&export=download" },
+      { title: "S LINE EPISODE 01", url: "https://drive.usercontent.google.com/download?id=1eLhWloyjt9bQH3i8bO9wJh48TRU4282m&export=download" }
+      , { title: "S LINE EPISODE 02", url: "https://drive.usercontent.google.com/download?id=1lpXpPXyZqeW-YZlF01U1UnJ6EBBWRpVD&export=download" },
+      { title: "THIS IS 40 (2012)", url: "https://drive.usercontent.google.com/download?id=1dGG6-GIoAy-Fp8R1ayI1sl6nt_5ZV7eS&export=download" }
+  ]
+      
+
+    function search() {
+      const query = document.getElementById("searchInput").value.toLowerCase();
+      const resultsContainer = document.getElementById("searchResults");
+
+      const results = films.filter(film => film.title.toLowerCase().includes(query));
+
+      resultsContainer.innerHTML = results.length
+        ? results.map(film => `<p><a href="${film.url}" download>${film.title}</a></p>`).join("")
+        : "<p>No results found</p>";
+    }
+  </script>
+
+  
+<style>
+
+
+  
+  body {
+    background-image: url('mk.png'); /* Replace with your image path */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+</style>
+
+</body>
+</html>
